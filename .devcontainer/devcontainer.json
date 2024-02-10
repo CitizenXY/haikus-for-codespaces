@@ -1,5 +1,6 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/base:alpine",
-  "features": {
-  }
+  "build": {
+        // Path is relative to the devcontainer.json file.
+        "dockerfile": "Dockerfile"
+    }
 }
